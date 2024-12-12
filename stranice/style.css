@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 1920;
+    
+}
+     
+    .navbar {
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        background: goldenrod;
+        font-weight: bold;
+    
+    }
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    }
+    .navbar ul li {
+        list-style: none;
+        padding: 15px 25px;
+    
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        background: none;
+        color:#fff;
+        display: block; 
+    
+        
+    }
+    .navbar ul li:hover{
+        text-decoration: none;
+        background: orange;
+    
+    }
+    .navbar ul li a:hover {
+        color:red;
+    }
+    
+    @media (max-width: 768px) {
+        .navbar ul {
+            flex-direction: column; 
+        }
+    
+        .navbar ul li {
+            width: 100%; 
+            text-align: center;  
+        }
+    }
+    
+    .slika1{
+       height: 100px;
+       
+    }
+    .slika2{
+     width: 1500px;
+     margin-top: 20px;
+     position: relative;
+     margin-left: 180px;
+     border-radius: 10%;
+     margin-bottom: 200px;
+        
+    }
+    h2{
+    
+        text-align: center;
+        
+        
+    }
+    
+    .p1{
+        text-align: center;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: medium;
+        color: #32417a;
+        
+    }
+
+     .vvv{
+
+        text-align: center;
+        animation: rotateAndReset 3s linear;
+        margin-top: 10px;
+
+     }
+     @keyframes rotateAndReset{
+
+        0%{
+            transform: rotate(0deg);
+        }
+
+        50%{
+
+            transform: rotate(180deg);
+        }
+
+        100%{
+
+            transform: rotate(0deg);
+        }
+
+     }
+
+    h1{
+        text-align: center;
+    }
+    
+    footer{
+  
+        text-align: center;
+        background-color: goldenrod;
+        padding: 15px;   
+    }
+
+    footer ul li{
+
+        list-style: none;
+    }
+    footer ul li a{
+
+        text-decoration: none;
+        color: green;
+    }
+
+
+    .art{
+
+        width: 20%;
+    }
+    .art:hover{
+        transform: scale(1.10);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+    }
+    
+    .naslov{
+
+      
+        position: absolute;
+        left: 450px;
+        top: 100px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    
+    .p2{
+   
+     position: absolute;
+     left: 450px;
+     bottom: 500px;
+     font-size: larger;
+     color: grey;
+    }
+
+    .podrum{
+
+        height: 200px;
+       margin-left: 750px;
+       
+    }
+      
+  
+    
+    .onama{
+        
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: large;
+       font-weight: bold;
+       width: 50%;
+          
+    }
+    .kontakt{
+
+        font-size: 35px;
+        color: #a57c53;
+        margin-bottom: 10px;
+
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+    
+    .kontakt-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 100px;
+        background-color: white;
+    }
+    
+    .kontakt-levo, .kontakt-desno {
+        width: 45%;
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 5px solid burlywood;
+       
+    }
+    .forme{
+
+        padding: 10px 15px;
+        background-color: wheat;
+        font-weight: bold;
+
+    }
+
+    .rez{
+      
+        position: absolute;
+        font-size: medium;
+
+    }
+    .kuca1{
+
+        width: 70%;
+    }
+
+    .kuca2{
+
+        width: 70%;
+    }
+    
+    .logo {
+        max-width: 100px;
+        margin-bottom: 20px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        color: #a57c53;
+        margin-bottom: 10px;
+    }
+    
+    p {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .social-icons img {
+        width: 30px;
+        margin: 5px;
+    }
+    
+    .social-icons a {
+        text-decoration: none;
+    }
+    
+    button {
+        background-color: #32417a;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #283561;
+    }
+
+    .galerija {
+        display: inline-block;
+        margin: 20px; 
+        border: 2px solid #ccc; 
+        border-radius: 8px; 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        width:300px;
+        height: 300px;
+    }
+    
+    .galerija:hover {
+        transform: scale(1.10); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    .aurelius{
+        color: purple;
+    }
+    .rizling{
+        color: wheat
+    }
+    .sauvi{
+        color: sandybrown;
+    }
+    .roseto{
+        color: pink;
+    }
+    .cena{
+        color: #283561;
+        position: absolute;
+        top: 2000px;
+        font-size: xx-large;
+        left: 500px;
+    }
+    .tabela{
+
+        width: 60%;
+        text-align: center;
+        border: 5px solid saddlebrown;
+        color: #283561;
+        position: absolute;
+        top: 2100px;
+        
+    }
+    .tabela tr:nth-of-type(odd){
+
+        background-color: yellow;
+    }
+
+    
+ 
+    .vrste{
+
+        position: relative;
+        left: 130px;
+
+    }
+   
+    .kartica{
+
+        border: 4px solid black;
+        width: 20%;
+        border-radius: 15%;
+        background-color: #a57c53;
+        margin: 10px;
+        margin-left: 40px;
+        margin-top: 30px;
+    
+        
+    }
+
+    .kartica:hover{
+        transform: rotate(10deg);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .kartica2{
+
+        border: 5px solid black;
+        width: 20%;
+        border-radius: 15%;
+        background-color: #a57c53;
+        margin: 10px;
+       margin-left: 500px; 
+    }
+    .kartica2:hover{
+        transform: rotate(-10deg);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .kartica3{
+
+        border: 5px solid black;
+        width: 20%;
+        border-radius: 15%;
+        background-color: #a57c53;
+        margin: 10px;
+        margin-left: 1000px;
+       
+    }
+    .kartica3:hover{
+        transform: rotate(10deg);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .kartica4{
+
+        border: 5px solid black;
+        width: 20%;
+        border-radius: 15%;
+        background-color: #a57c53;
+        margin: 10px;
+        margin-left: 1450px;
+        
+       
+    }
+    .kartica4:hover{
+        transform: rotate(-10deg);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .p3{
+        color: wheat;
+        margin-left: 25px;
+    }
+    
+   .pozadina1{
+
+         background-color: wheat;
+   }
+
+   .ppp{
+
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    color: black;
+    text-align: center;
+   }
