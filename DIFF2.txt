@@ -1,0 +1,36 @@
+.navbar ul li,footer ul li{list-style:none}*,body{margin:0;padding:0}.forme,.
+navbar,.onama{font-weight:700}.navbar ul li a,.navbar ul li:hover,.social-icons a,f
+ooter ul li a{text-decoration:none}.p1,.tabela,.vvv,footer,h1,h2{text-align:center}.
+p1,.slika2,z .vrste{position:relative}*{box-sizing:border-box;max-width:1920}.navbar{height:auto;display:f
+lex;justify-content:space-around;background:#daa520}.navbar ul{display:flex;flex-wrap:wrap;justify-content:space-around}
+.navbar ul li{padding:15px 25px}.navbar ul li a{background:0 0;color:#fff;display:block}
+.navbar ul li:hover{background:orange}.navbar ul li a:hover{color:red}@media (max-w
+idth:768px){.navbar ul{flex-direction:column}.navbar ul li{width:100%;text-align:center}.slika1{height:10
+0px}.slika2{width:1500px;margin-top:20px;margin-left:180px;border-radius:10%;margin-bottom:200px}.art,.kartica
+{width:20%}.p1{margin-bottom:20px;font-size:medium;color:
+#32417a}.naslov,.p2,.rez{position:absolute}.vvv{animation:3s linear rotateAndReset;margin-top:10p
+x}@keyframes rotateAndReset{0%,100%{transform:rotate(0)}50%{transform:rotate(180deg)}}footer{backg
+round-color:#daa520;padding:15px}footer ul li a{color:green}.art:hover{transform:scale(1.1);box-sh
+adow:0 4px 8px rgba(0,0,0,.8)}.naslov{left:450px;top:100px;font-family:'Times New Roman',Times,seri
+f}.p2{left:450px;bottom:500px;font-size:larger;color:grey}.kontakt,h3{color:#a57c53;margin-bottom:10
+px}.podrum{height:200px;margin-left:750px}.onama{font-family:Cambria,Cochin,Georgia,Times,'Times New 
+Roman',serif;font-size:large;width:50%}.kontakt{font-size:35px}body{font-family:Arial,sans-serif;line-
+height:1.6;background-color:#f9f9f9}.kontakt-container{display:flex;justify-content:space-between;pa
+dding:50px 100px;background-color:#fff}.kontakt-desno,.kontakt-levo{width:45%;text-align:center;border:
+5px solid #deb887;padding:20px;border-radius:10px;background-color:#fff}.forme{padding:10px 15px;backgro
+und-color:wheat}.rez{font-size:medium}.kuca1,.kuca2{width:70%}.logo{max-width:100px;margin-bottom:20px}h
+3{font-size:20px}p{font-size:14px;color:#333;margin-bottom:10px}.social-icons img{width:30px;margin:5px}butto
+n{background-color:#32417a;color:#fff;border:none;padding:10px 20px;font-size:16px;border-radius:5px;cu
+rsor:pointer}button:hover{background-color:#283561}.galerija{display:inline-block;margin:20px;border:2p
+x solid #ccc;border-radius:8px;transition:transform .3s,box-shadow .3s;width:300px;height:300px}.galerij
+a:hover{transform:scale(1.1);box-shadow:0 4px 8px rgba(0,0,0,.2)}.aurelius{color:purple}.rizling{color:wh
+eat}.sauvi{color:#f4a460}.roseto{color:pink}.cena,.tabela{color:#283561;position:absolute}.cena{top:2000px;font-s
+ize:xx-large;left:500px}.tabela{width:60%;border:5px soli
+d #8b4513;top:2100px}.tabela tr:nth-of-type(odd){background-color:#ff0}z .vrste{left:130px}.kartica{borde
+r:4px solid #000;border-radius:15%;background-color:#a57c53;margin:30px 10px 10px 40px}.kartica2,.kartica
+3{border:5px solid #000;width:20%;background-color:#a57c53}.kartica3:hover,.kartica:hover{transform:rotate
+(10deg);box-shadow:0 4px 8px rgba(0,0,0,.2)}.kartica2{border-radius:15%;margin:10px 10px 10px 500px}.karti
+ca2:hover,.kartica4:hover{transform:rotate(-10deg);box-shadow:0 4px 8px rgba(0,0,0,.2)}.kartica3{border-ra
+dius:15%;margin:10px 10px 10px 1000px}.kartica4{border:5px solid #000;width:20%;border-radius:15%;backgrou
+nd-color:#a57c53;margin:10px 10px 10px 1450px}.p3{color:wheat;margin-left:25px}.pozadin
+a1{background-color:wheat}
