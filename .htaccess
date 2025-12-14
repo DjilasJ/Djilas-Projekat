@@ -1,0 +1,10 @@
+# Omogućavanje SEO-friendly URL-ova
+Options +FollowSymLinks
+
+# Redirekt sa www na non-www (primer)
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.djilasj\.github\.io$ [NC]
+RewriteRule ^(.*)$ https://djilasj.github.io/Djilas-Projekat/$1 [L,R=301]
+
+# Custom 404 stranica
+ErrorDocument 404 /index.html
