@@ -1,0 +1,6 @@
+# Dozvoljava svima da indeksiraju ceo sajt
+User-agent: *
+Disallow:
+
+# Sitemap
+Sitemap: https://djilas.github.io/Djilas-Projekat/sitemap.xml
